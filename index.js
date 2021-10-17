@@ -14,17 +14,14 @@ const average = function (a, b) {
   };
   console.log(average(6, 6));
 
-  /*
+
    //-----3
 const findFactorial = function(num){
     let abd=1;
     for (let index = 0; index++) {
         const element = array[index];
-  
-    }
-}
-*/
-
+      }
+};
 
 //---- 4
 const round = function (number) {
@@ -51,10 +48,14 @@ const oneOrZero = function (randomNumber) {
   return  Math.floor((Math.random(randomNumber) * 1) + 1);
 };
 
-
 //--8
-const randomRange = function (number) {
-    // TODO: Your code here
+  const randomRange = function (number) {
+    return Math.floor(Math.random() * (number+1));
   };
 
-console.log(oneOrZero(2));
+  //---9
+  const includeOf = function (string, character) {
+    return string.includes(character);
+
+  };
+
