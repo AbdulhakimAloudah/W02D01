@@ -45,3 +45,16 @@ const randomNumber = function (zero) {
 };
 
 console.log(randomNumber(057362233));
+
+//--7
+const oneOrZero = function (randomNumber) {
+  return  Math.floor((Math.random(randomNumber) * 1) + 1);
+};
+
+
+//--8
+const randomRange = function (number) {
+    // TODO: Your code here
+  };
+
+console.log(oneOrZero(2));
