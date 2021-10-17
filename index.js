@@ -30,15 +30,18 @@ const findFactorial = function(num){
 const round = function (number) {
   return Math.round(number);
 };
-console.log(number(7.98));
+console.log(round(7.98));
 
 
 //--5
 const toThePowerOf = function (base, exponent) {
-    // TODO: Your code here
-  };
-  
-  toThePowerOf(2, 2); // => 4
-  toThePowerOf(2, 3); // => 8
-  toThePowerOf(9, 2); // => 81
+   return Math.pow(base, exponent);
+};
+console.log(toThePowerOf(9, 2));
 
+//--6
+const randomNumber = function (zero) {
+ return Math.random(zero)
+};
+
+console.log(randomNumber(057362233));
