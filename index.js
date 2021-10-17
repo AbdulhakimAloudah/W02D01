@@ -1,36 +1,44 @@
+//--1
+
 const sum = function (n1, n2) {
-   let sum = n1 + n2;
- return sum ;
-}
-console.log(sum(5, 10));
+    let sum = n1 + n2;
+  return sum ;
+ }
+ console.log(sum(5, 10));
 
-sum(15, 10);
-
-//-----
+//-----2
 
 const average = function (a, b) {
-    let average1 = a + b;
-    return average2 / 2
+    let average = a + b
+    return  average / 2
+  };
+  console.log(average(6, 6));
+
+  /*
+   //-----3
+const findFactorial = function(num){
+    let abd=1;
+    for (let index = 0; index++) {
+        const element = array[index];
+  
+    }
+}
+*/
+
+
+//---- 4
+const round = function (number) {
+  return Math.round(number);
+};
+console.log(number(7.98));
+
+
+//--5
+const toThePowerOf = function (base, exponent) {
+    // TODO: Your code here
   };
   
-  average2(20, 5); // => 12.5
-  average(10, 20); // => 15
+  toThePowerOf(2, 2); // => 4
+  toThePowerOf(2, 3); // => 8
+  toThePowerOf(9, 2); // => 81
 
-
-
-//-----
-/*  
-   5! = 5 * 4 * 3 * 2 * 1
- */
-
-   const findFactorial = (num) => {
-    // YOUR CODE HERE
-       }
-    /*
-    Examples:
-    findFactorial(1) // => 1
-    findFactorial(3) // => 6
-    findFactorial(4) // => 24
-    findFactorial(6) // => 720
-    findFactorial(11) // => 39916800
-    */
